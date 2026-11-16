@@ -10,7 +10,7 @@ export default defineNuxtConfig({
 		'@vee-validate/nuxt',
 		'@nuxt/eslint'
 	],
-	css: ['./app/assets/null.scss', './app/assets/style.scss'],
+	css: ['~/assets/null.scss', '~/assets/style.scss'],
 	vite: {
 		optimizeDeps: {
 			include: [
