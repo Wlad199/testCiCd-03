@@ -8,6 +8,7 @@ export default defineNuxtConfig({
 		'@pinia/nuxt',
 		'@nuxt/icon',
 		'@vee-validate/nuxt',
+		'@nuxt/eslint'
 	],
 	css: ['./app/assets/null.scss', './app/assets/style.scss'],
 	vite: {
@@ -32,6 +33,9 @@ export default defineNuxtConfig({
 				lang: 'en'
 			},
 		}
+	},
+	nitro: {
+		preset: 'vercel'
 	},
 	image: {
 		//quality: 80

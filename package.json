@@ -7,7 +7,10 @@
 		"dev": "nuxt dev",
 		"generate": "nuxt generate",
 		"preview": "nuxt preview",
-		"postinstall": "nuxt prepare"
+		"postinstall": "nuxt prepare",
+		"typecheck": "nuxt typecheck",
+		"lint": "eslint .",
+		"test": "vitest run"
 	},
 	"dependencies": {
 		"@nuxt/fonts": "^0.14.0",
@@ -26,6 +29,10 @@
 		"zod": "^3.24.2"
 	},
 	"devDependencies": {
-		"@iconify-json/ic": "^1.2.4"
+		"@nuxt/eslint": "^1.17.0",
+		"eslint": "^10.14.0",
+		"typescript": "^6.0.3",
+		"vitest": "^5.0.5",
+		"vue-tsc": "^3.3.14"
 	}
 }
