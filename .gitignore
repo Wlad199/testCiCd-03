@@ -23,3 +23,5 @@ logs
 .env.*
 !.env.example
 _myUI/
+.vercel
+.env*
